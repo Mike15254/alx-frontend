@@ -153,7 +153,9 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-
+.nav .nav-link {
+    
+}
 
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
