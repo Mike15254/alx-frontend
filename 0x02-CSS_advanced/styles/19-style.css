@@ -129,7 +129,7 @@ a:active {
   margin: var(--section-tagline-margin);
 }
 
-ul.rw {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
