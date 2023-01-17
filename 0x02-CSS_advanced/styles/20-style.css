@@ -176,7 +176,11 @@ ul.row {
   padding: 0.5rem;
 }
 
-
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 
 .container {
   width: 960px;
