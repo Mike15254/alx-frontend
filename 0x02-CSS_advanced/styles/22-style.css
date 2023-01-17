@@ -41,6 +41,11 @@
   --section-tagline-margin: 0;
 }
 
+:root[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white)
+} 
+
 *,
 *:before,
 *:after {
@@ -181,12 +186,6 @@ ul.row {
   content: '';
   display: table;
   clear: both;
-}
-
-[dark-section-theme='dark'] {
-  --text-color: #ffffff;
-  --section-title-color: #ffffff;
-  background-color: var(--color-black);
 }
 
 .container {
