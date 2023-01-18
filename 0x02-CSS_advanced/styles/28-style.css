@@ -81,8 +81,8 @@ body {
     padding: var(--header-padding);
 }
 
-.heade-logo {
-    position: var(--header-logo-postion);
+.header-logo {
+    position: var(--header-logo-position);
 }
 
 .header-logo a {
